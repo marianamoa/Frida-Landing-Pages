@@ -536,6 +536,7 @@ nav ul li a:hover {
   align-items: flex-start;
   max-width: 850px;
   margin: 0 auto;
+  gap: 2rem;
 }
 
 /* Left side */
@@ -546,8 +547,8 @@ nav ul li a:hover {
 }
 
 .contact-left img {
-  width: 260px;
-  height: 260px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 1rem;
 }
@@ -555,12 +556,14 @@ nav ul li a:hover {
 .contact-left h3 {
   font-size: 1.25rem;
   margin-top: 1rem;
+  margin-bottom: 0;
   font-weight: 600;
 }
 
 .contact-left .phone-number {
   color: #a46a3c; /* warm brown accent */
   font-weight: 500;
+  margin: 0;
 }
 
 /* Right side */
@@ -595,6 +598,7 @@ nav ul li a:hover {
   border-radius: 6px;
   background-color: #fafafa;
   font-size: 1rem;
+  font-family: jost, sans-serif;
 }
 
 .contact-form textarea {
@@ -703,3 +707,7 @@ nav ul li a:hover {
   transition: background 0.3s;
 }
 
+.avatar {
+  width: 100%;
+  height: auto;
+}
